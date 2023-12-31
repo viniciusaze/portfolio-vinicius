@@ -51,7 +51,6 @@ main{
     display: block;
     color: white;
     margin:auto;
-    border-radius: 20px;
 }
 
 section#curriculo {
@@ -79,14 +78,12 @@ section#quem{
     background-color: #000022;
     padding: 20px;
     margin: auto;
-    margin-bottom: 15px;
-    border-radius: 20px;
+
 }
 
 section#hab {
     background-color: #000022;
     padding: 20px;
     margin: auto;
-    margin-bottom: 15px;
-    border-radius: 20px;
+
 }
