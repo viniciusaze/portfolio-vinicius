@@ -29,11 +29,10 @@ header{
 
 header > img{
     position: relative;
-    top:-90px;
-    left: 20px;
-    display: inline-block;
+    top:-101px;
+    left: 50px;
     width: 300px;
-    float: right;
+    float: inline-end;
 }
 
 header > h1 {
