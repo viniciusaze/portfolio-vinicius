@@ -91,12 +91,20 @@ div#img > img{
 }
 
 section#quem {
-    background-color: #073333;
+    background: #073333 url(../imagens/ceu.jpg) no-repeat top left;
+    background-size: cover;
+    background-attachment: fixed;
     margin: auto;
     padding: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
     text-indent: 10px;
+    border: 1px solid #D4F4F4
+}
+
+section#quem > h2, p{
+    background-color: rgba(0, 0, 0, 0.616);
+    padding: 10px;
 }
 
 
