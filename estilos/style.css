@@ -108,5 +108,26 @@ section#quem > div{
     box-shadow: 0px 0px 10px #8dc2c28c;
 }
 
+section#hab{
+    padding: 20px;
+}
+
+section#hab > img{
+    width: 50px;
+    padding: 2px;
+}
+
+section#hab > img#css{
+    width: 37px;
+}
+
+section#redes{
+    padding: 20px;
+}
+
+section#redes > img{
+    width: 50px;
+}
+
 
 
