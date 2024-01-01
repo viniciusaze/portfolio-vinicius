@@ -129,5 +129,14 @@ section#redes > a > img{
     width: 50px;
 }
 
+section#redes > img.hover {
+    display: none;
+}
+
+section#redes > a > img:hover{
+    width: 60px;
+    transition: 0.3s;
+}
+
 
 
