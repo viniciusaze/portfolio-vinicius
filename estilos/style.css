@@ -3,12 +3,64 @@
 
 /* MEDIA MOBILE*/
 
-/*  PALETA DE CORES:
-    #FC2121
-    #3FBA62
-    #16FA57
-    #A54646
-    #537A5E
-*/
 
 
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html{
+
+    height: 100vh;
+    background-color: #111111;
+    color: white;
+}
+
+header{
+    padding: 20px;
+    font-size: 0.8em;
+    border-bottom: 1px solid #D4F4F4;
+}
+
+main{
+    margin: auto;
+}
+
+strong{
+    color: #4c8f8f;
+}
+
+section#inicio{
+    margin: auto;
+    width: 400px;
+    height: 500px;
+    border: 1px solid white;
+}
+
+div#bv {
+    margin: auto;
+    font-size: 1.8em;
+    text-align: center;
+    margin-top: 200px;
+    padding: 10px;
+}
+
+div#bv > h2{
+    color: #8dc2c2;
+    margin-bottom: 30px;
+}
+
+div#bv > p{
+    font-size: 0.7em;
+}
+
+div#img{
+    display: none;
+    float: right;
+}
+
+div#img > img{
+    width: 200px;
+}
