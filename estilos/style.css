@@ -1,18 +1,21 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'Titillium';
+    src: url('../fontes/TitilliumWeb-Regular.ttf') format('opentype');
+}
 
 /* MEDIA MOBILE*/
 
 
 
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Titillium', sans-serif;
     margin: 0px;
     padding: 0px;
 }
 
 body, html{
-
     height: 100vh;
     background-color: #111111;
     color: white;
@@ -35,8 +38,7 @@ strong{
 section#inicio{
     margin: auto;
     width: 400px;
-    height: 500px;
-    border: 1px solid white;
+    height: 720px;
 }
 
 div#bv {
@@ -47,8 +49,11 @@ div#bv {
     padding: 10px;
 }
 
-div#bv > h2{
+h2{
     color: #8dc2c2;
+}
+
+div#bv > h2{
     margin-bottom: 30px;
 }
 
@@ -64,3 +69,12 @@ div#img{
 div#img > img{
     width: 200px;
 }
+
+section#quem {
+    background-color: #073333;
+    margin: auto;
+    padding: 10px;
+    text-align: justify;   
+}
+
+
