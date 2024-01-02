@@ -91,7 +91,7 @@ div#img > img{
 }
 
 section#quem {
-    background: #073333 url(../imagens/ceu.jpg) no-repeat top left;
+    background: #073333;
     background-size: cover;
     background-attachment: fixed;
     margin: auto;
@@ -99,6 +99,7 @@ section#quem {
     padding-top: 20px;
     padding-bottom: 20px;
     text-indent: 10px;
+    box-shadow: inset 1px 1px 7px #0000008c;
 }
 
 section#quem > div{
