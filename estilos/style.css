@@ -38,7 +38,8 @@ strong{
 section#inicio{
     margin: auto;
     width: 250px;
-    height: 720px;
+    height: 520px;
+    
 }
 
 div#bv {
@@ -46,27 +47,37 @@ div#bv {
     font-size: 1.8em;
     text-align: center;
     margin-top: 200px;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
     padding: 10px;
 }
 
-a.cv {
-    display: block;
+div#cv{
     margin: auto;
-    margin-top: 70px;
-    background-color: #073333;
-    padding: 15px;
-    text-decoration: none;
-    font-size: 0.5em;
-    color: white;
-    border-radius: 10px;
+    width: 96vw;
 }
 
-a.cv:hover{
-    background-color: #4c8f8f;
-    box-shadow: 0px 0px 5px white;
-    color: #073333;
-    transition: 0.3s;
+div#cv a {
+    position: relative;
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 140px;
+    background-color: #073333;
+    font-weight: bold;
+    padding: 15px;
+    margin-bottom: 170px;
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px #d4f4f442;
+}
+
+div#cv a:hover{
+    font-size: 1.2em;
+    width: 175px;
+    box-shadow: 0px 3px 15px #d4f4f442;
+    transition: 0.3s ease-in-out;
 }
 
 h2{
