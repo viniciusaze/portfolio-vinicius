@@ -115,8 +115,7 @@ section#quem {
     background-size: cover;
     background-attachment: fixed;
     margin: auto;
-    padding: 10px;
-    padding-top: 20px;
+    padding: 20px 10px 20px 10px;
     text-indent: 10px;
 }
 
