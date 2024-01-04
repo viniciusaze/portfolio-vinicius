@@ -23,7 +23,7 @@ PALETA DE CORES:
 
 body, html{
     height: 100vh;
-    background-color: #111111;
+    background-color: #181818;
     color: white;
 }
 
@@ -46,7 +46,6 @@ section#inicio{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 100px;
     margin: auto;
     height: 550px;
     width: 250px;
