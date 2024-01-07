@@ -103,6 +103,10 @@ h2{
 }
 
 section#quem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
     background: #c7c7c7;
     margin: auto;
     padding: 20px 10px 20px 10px;
@@ -122,5 +126,6 @@ section#quem > div{
 section#quem strong{
     color: #661423;
 }
+
 
 
