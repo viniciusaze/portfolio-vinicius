@@ -22,9 +22,9 @@ PALETA DE CORES:
 }
 
 body, html{
-    height: 100vh;
     background-color: #181818;
     color: white;
+    height: 100vh;
 }
 
 header{
@@ -95,7 +95,6 @@ div#curriculo a:hover{
     font-size: 1.2em;
     width: 175px;
     box-shadow: 0px 3px 15px #ffffff59;
-    transition: 0.5s ease-in-out
 }
 
 h2{
