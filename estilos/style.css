@@ -28,6 +28,7 @@ body, html{
 }
 
 header{
+    background: #181818;
     padding: 20px;
     font-size: 0.6em;
     border-bottom: 1px solid #F23557;
@@ -35,6 +36,8 @@ header{
 
 main{
     margin: auto;
+    background: #181818 url(../imagens/back.jpg) no-repeat;
+    background-size: cover;
 }
 
 
@@ -46,14 +49,13 @@ section#inicio{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: auto;
+    padding-left: 15px;
     height: 550px;
     width: 250px;
 }
 
 div#bem-vindo {
     font-size: 1.8em;
-    text-align: center;
     padding: 10px;
 }
 
@@ -98,17 +100,6 @@ h2{
     color: #CF1D4B;
 }
 
-
-
-div#img{
-    display: none;
-    float: right;
-}
-
-div#img > img{
-    width: 200px;
-}
-
 section#quem {
     background: #c7c7c7;
     background-size: cover;
@@ -116,6 +107,7 @@ section#quem {
     margin: auto;
     padding: 20px 10px 20px 10px;
     text-indent: 10px;
+    border-top: 1px solid #F23557;
 }
 
 section#quem > div{
@@ -129,36 +121,5 @@ section#quem > div{
 section#quem strong{
     color: #661423;
 }
-
-section#hab{
-    padding: 20px;
-}
-
-section#hab > img{
-    width: 50px;
-    padding: 2px;
-}
-
-section#hab > img#css{
-    width: 37px;
-}
-
-section#redes{
-    padding: 20px;
-}
-
-section#redes > a > img{
-    width: 50px;
-}
-
-section#redes > img.hover {
-    display: none;
-}
-
-section#redes > a > img:hover{
-    width: 60px;
-    transition: 0.3s;
-}
-
 
 
