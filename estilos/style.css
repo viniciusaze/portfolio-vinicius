@@ -107,7 +107,6 @@ section#quem {
     margin: auto;
     padding: 20px 10px 20px 10px;
     text-indent: 10px;
-    border-top: 1px solid #F23557;
 }
 
 section#quem > article{
@@ -115,7 +114,7 @@ section#quem > article{
     border: 1px solid #FFD301;
     color: #c7c5c5;
     padding: 10px;
-    box-shadow: 0px 0px 10px #ffd50141;
+    box-shadow: 0px 0px 3px #ffd50141;
     overflow: hidden;
 }
 
@@ -126,6 +125,46 @@ article > p {
 
 section#quem strong{
     color: #FFD301;
+}
+
+section#hab {
+    padding: 20px 10px 20px 10px;
+}
+
+section#hab{
+    
+}
+
+div#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+
+div.habilidades{
+
+    text-align: center;
+    background-color: #242424;
+    border-radius: 7px;
+    border: 1px solid #CF1D4B;
+    margin: 5px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+div.habilidades:hover{
+    background-color: #7a1a2c5d;
+    border: 1px solid #7a1a2c;
+}
+
+section#hab img{
+    width: 80px;
+}
+
+div#container p{
+    display: none;
 }
 
 
