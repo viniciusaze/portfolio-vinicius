@@ -139,12 +139,13 @@ div#container{
 div.habilidades{
     display: inline-block;
     text-align: center;
+    margin: auto;
+    width: 70px;
+    height: 70px;
     background-color: #242424;
     border-radius: 7px;
     border: 1px solid #CF1D4B;
-    margin: 5px;
     padding: 10px;
-    overflow: hidden;
     transition: 0.5s;
 }
 
