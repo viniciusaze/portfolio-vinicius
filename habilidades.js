@@ -61,7 +61,7 @@ function css(){
         divcss.style.display = 'block'
 
         divcss.style.width = '90%'
-        divcss.style.height = '420px'
+        divcss.style.height = '80%'
         textcss.style.margin = 'auto'
         divcss.style.margin = 'auto'
         divcss.style.border = '4px solid #7a1a2c'
