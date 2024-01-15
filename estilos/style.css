@@ -45,8 +45,8 @@ strong{
 
 section#inicio{
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     padding-left: 15px;
     height: 550px;
     width: 280px;
