@@ -96,6 +96,7 @@ div#links a:hover{
 
 h2{
     color: #CF1D4B;
+    padding-bottom: 10px;
 }
 
 section#quem {
@@ -131,37 +132,28 @@ section#hab {
     padding: 20px 10px 20px 10px;
 }
 
-section#hab{
-    
-}
-
 div#container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: nowrap;
-    gap: 10px;
+    text-align: center;
 }
 
 div.habilidades{
-    width: 90px;
-    height: 90px;
+    display: inline-block;
     text-align: center;
     background-color: #242424;
     border-radius: 7px;
     border: 1px solid #CF1D4B;
     margin: 5px;
     padding: 10px;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 div.habilidades:hover{
-    background-color: #7a1a2c5d;
+    background-color: #50232c5d;
     border: 1px solid #7a1a2c;
 }
 
 section#hab img{
-    width: 80px;
+    width: 70px;
 }
 
 div#container p{
