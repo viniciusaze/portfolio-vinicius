@@ -144,6 +144,7 @@ div.habilidades{
     border: 1px solid #CF1D4B;
     margin: 5px;
     padding: 10px;
+    overflow: hidden;
     transition: 0.5s;
 }
 
