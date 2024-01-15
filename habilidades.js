@@ -23,7 +23,7 @@ function html5(){
         divhtml.style.display = 'block'
 
         divhtml.style.width = '90%'
-        divhtml.style.height = '370px'
+        divhtml.style.height = '80%'
         texthtml.style.margin = 'auto'
         divhtml.style.margin = 'auto'
         divhtml.style.border = '4px solid #7a1a2c'
@@ -99,7 +99,7 @@ function js(){
         divjs.style.display = 'block'
 
         divjs.style.width = '90%'
-        divjs.style.height = '370px'
+        divjs.style.height = '80%'
         textjs.style.margin = 'auto'
         divjs.style.margin = 'auto'
         divjs.style.border = '4px solid #7a1a2c'
