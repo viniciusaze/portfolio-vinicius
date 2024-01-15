@@ -144,7 +144,8 @@ div#container{
 }
 
 div.habilidades{
-
+    width: 90px;
+    height: 90px;
     text-align: center;
     background-color: #242424;
     border-radius: 7px;
