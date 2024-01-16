@@ -147,6 +147,12 @@ section#hab {
 }
 
 div#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:20px;
     text-align: center;
 }
 
@@ -164,7 +170,7 @@ div.habilidades{
 }
 
 div.habilidades:hover{
-    background-color: #50232c5d;
+    transform: scale(1.1, 1.1);
     border: 1px solid #7a1a2c;
 }
 
