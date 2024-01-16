@@ -26,7 +26,7 @@ function html5(){
         divhtml.style.height = '80%'
         texthtml.style.margin = 'auto'
         divhtml.style.margin = 'auto'
-        divhtml.style.border = '4px solid #7a1a2c'
+        divhtml.style.border = '4px solid #eb4a67'
 
         textcss.style.display = 'none'
         textjs.style.display = 'none'
@@ -66,7 +66,7 @@ function css(){
         divcss.style.height = '80%'
         textcss.style.margin = 'auto'
         divcss.style.margin = 'auto'
-        divcss.style.border = '4px solid #7a1a2c'
+        divcss.style.border = '4px solid #eb4a67'
 
         texthtml.style.display = 'none'
         textjs.style.display = 'none'
@@ -104,7 +104,7 @@ function js(){
         divjs.style.height = '80%'
         textjs.style.margin = 'auto'
         divjs.style.margin = 'auto'
-        divjs.style.border = '4px solid #7a1a2c'
+        divjs.style.border = '4px solid #eb4a67'
 
         texthtml.style.display = 'none'
         textcss.style.display = 'none'

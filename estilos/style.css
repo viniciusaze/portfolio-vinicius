@@ -170,8 +170,7 @@ div.habilidades{
 }
 
 div.habilidades:hover{
-    transform: scale(1.1, 1.1);
-    border: 1px solid #7a1a2c;
+    border: 1px solid #eb4a67;
 }
 
 section#hab img{
