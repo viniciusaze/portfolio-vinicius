@@ -68,11 +68,11 @@ div#bem-vindo {
 }
 
 div#bem-vindo > h1 {
-    font-size: 1.9em;
+    font-size: 1.6em;
 }
 
 div#bem-vindo > h1 > strong{
-    font-size: 1.9em;
+    font-size: 1.8em;
     color: #CF1D4B;
 }
 
