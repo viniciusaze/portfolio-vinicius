@@ -19,6 +19,7 @@ PALETA DE CORES:
     font-family: 'Titillium', sans-serif;
     margin: 0px;
     padding: 0px;
+    box-sizing: content-box;
 }
 
 body, html{
@@ -42,6 +43,10 @@ main{
 
 strong{
     color: #D8C0F3;
+}
+
+a{
+    text-decoration: none;
 }
 
 section#inicio{
@@ -80,18 +85,20 @@ div#bem-vindo > p{
     font-size: 0.7em;
 }
 
-div#links{
+div#contlinks{
     display: flex;
+    justify-content: center;
     flex-direction: row;
     align-items: center;
+    gap: 15px;
     height: 190px;
 }
 
-div#links img{
+div.links img{
     width: 45px;
 }
 
-div#links a {
+div.links {
     margin: auto;
     text-align: center;
     width: 80px;
@@ -103,13 +110,21 @@ div#links a {
     color: black;
     padding: 5px;
     border-radius: 20px;
-    transition: all 0.3s;
-
+    transition: all 0.3s ease-in-out;
 }
 
-div#links a:hover{
-    width: 200px;
+div.links:hover{
+    width: 100px;
+    height: 70px;
     background-color: #F23557;
+}
+
+span.linkp{
+    display: none;
+    position: relative;
+    top: -10px;
+    font-size: 1.3em;
+    text-decoration: none;
 }
 
 h2{
@@ -166,11 +181,11 @@ div.habilidades{
     border-radius: 7px;
     border: 1px solid #CF1D4B;
     padding: 10px;
-    transition: 0.5s;
+    transition: 0.8s;
 }
 
 div.habilidades:hover{
-    border: 1px solid #eb4a67;
+    transform: scale(105%);
 }
 
 section#hab img{

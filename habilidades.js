@@ -11,7 +11,7 @@ function html5(){
         texthtml.style.display ='none'
         divhtml.style.width = '70px'
         divhtml.style.height = '70px'
-        divhtml.style.border = '1px solid #7a1a2c'
+        divhtml.style.border = '1px solid #CF1D4B'
         divhtml.style.display = 'inline-block'
 
         
@@ -26,7 +26,7 @@ function html5(){
         divhtml.style.height = '80%'
         texthtml.style.margin = 'auto'
         divhtml.style.margin = 'auto'
-        divhtml.style.border = '4px solid #eb4a67'
+        divhtml.style.border = '4px solid #f19cab'
 
         textcss.style.display = 'none'
         textjs.style.display = 'none'
@@ -37,13 +37,11 @@ function html5(){
         divjs.style.width = '70px'
         divjs.style.height = '70px'
 
-        divcss.style.border = '1px solid #7a1a2c'
-        divjs.style.border = '1px solid #7a1a2c'
+        divcss.style.border = '1px solid #CF1D4B'
+        divjs.style.border = '1px solid #CF1D4B'
 
         divcss.style.display = 'inline-block'
-        divjs.style.display = 'inline-block'
-
-        
+        divjs.style.display = 'inline-block'  
     }
 }
 
@@ -53,7 +51,7 @@ function css(){
         textcss.style.display ='none'
         divcss.style.width = '70px'
         divcss.style.height = '70px'
-        divcss.style.border = '1px solid #7a1a2c'
+        divcss.style.border = '1px solid #CF1D4B'
         divcss.style.display = 'inline-block'
 
         divhtml.style.display = 'inline-block'
@@ -66,7 +64,7 @@ function css(){
         divcss.style.height = '80%'
         textcss.style.margin = 'auto'
         divcss.style.margin = 'auto'
-        divcss.style.border = '4px solid #eb4a67'
+        divcss.style.border = '4px solid #f19cab'
 
         texthtml.style.display = 'none'
         textjs.style.display = 'none'
@@ -77,8 +75,8 @@ function css(){
         divjs.style.width = '70px'
         divjs.style.height = '70px'
 
-        divhtml.style.border = '1px solid #7a1a2c'
-        divjs.style.border = '1px solid #7a1a2c'
+        divhtml.style.border = '1px solid #CF1D4B'
+        divjs.style.border = '1px solid #CF1D4B'
 
         divhtml.style.display = 'inline-block'
         divjs.style.display = 'inline-block'
@@ -91,7 +89,7 @@ function js(){
         textjs.style.display ='none'
         divjs.style.width = '70px'
         divjs.style.height = '70px'
-        divjs.style.border = '1px solid #7a1a2c'
+        divjs.style.border = '1px solid #CF1D4B'
         divjs.style.display = 'inline-block'
 
         divhtml.style.display = 'inline-block'
@@ -104,7 +102,7 @@ function js(){
         divjs.style.height = '80%'
         textjs.style.margin = 'auto'
         divjs.style.margin = 'auto'
-        divjs.style.border = '4px solid #eb4a67'
+        divjs.style.border = '4px solid #f19cab'
 
         texthtml.style.display = 'none'
         textcss.style.display = 'none'
@@ -115,8 +113,8 @@ function js(){
         divcss.style.width = '70px'
         divcss.style.height = '70px'
 
-        divcss.style.border = '1px solid #7a1a2c'
-        divhtml.style.border = '1px solid #7a1a2c'
+        divhtml.style.border = '1px solid #CF1D4B'
+        divcss.style.border = '1px solid #CF1D4B'
 
         divhtml.style.display = 'inline-block'
         divcss.style.display = 'inline-block'
