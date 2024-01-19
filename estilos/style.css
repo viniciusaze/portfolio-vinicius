@@ -7,14 +7,6 @@
 
 /* MEDIA MOBILE*/
 
-/*
-PALETA DE CORES: 
-#D8C0F3 - Roxo clarinho
-#F235C8 - Rosa Choque
-#CB35F2 - Roxo Escuro
-#FFD301 - Amarelo
-#F23557 - Salmão Forte */
-
 *{
     font-family: 'Titillium', sans-serif;
     margin: 0px;
@@ -161,7 +153,7 @@ section#hab {
     padding: 20px 10px 20px 10px;
 }
 
-div#container{
+div#container-hab{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -181,7 +173,7 @@ div.habilidades{
     border-radius: 7px;
     border: 1px solid #CF1D4B;
     padding: 10px;
-    transition: 0.8s;
+    transition: 0.5s all ease-in-out;
 }
 
 div.habilidades:hover{
@@ -192,8 +184,35 @@ section#hab img{
     width: 70px;
 }
 
-div#container p{
+div#container-hab p{
     display: none;
+}
+
+section#proj {
+    padding: 20px 10px 20px 10px;
+}
+
+div#container-proj {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    padding: 10px;
+}
+
+div.projeto img{
+    margin: auto;
+    width: 430px;
+    border: 1px solid #D8C0F3;
+    border-radius: 10px;
+    transition: 0.5s all ease-in-out;
+}
+
+div.projeto img:hover {
+    border: 1px solid #F23557;
+    transform: scale(103%);
 }
 
 
