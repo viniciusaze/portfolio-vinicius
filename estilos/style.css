@@ -39,6 +39,8 @@ strong{
 
 a{
     text-decoration: none;
+    font-weight: bold;
+    color: #F4CB0B;
 }
 
 section#inicio{
@@ -268,6 +270,13 @@ div.ctt{
 
 div.ctt:hover{
     transform: scale(150%);
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+    border-top: 1px solid #D8C0F3;
 }
 
 
