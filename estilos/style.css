@@ -102,7 +102,7 @@ div.links {
     color: black;
     padding: 5px;
     border-radius: 20px;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 div.links:hover{
@@ -205,7 +205,7 @@ div#container-proj {
     border-radius: 5px;
     background: #242424;
     box-shadow: 2px 2px 4px #ffffff33;
-    transition: 0.5s all ease-in-out;
+    transition: 0.2s all ease-in-out;
 }
 
 div.projeto img{
@@ -214,7 +214,7 @@ div.projeto img{
     border: 1px solid #D8C0F3;
     border-radius: 10px;
     margin-bottom: 15px;  
-    transition: 0.5s all ease-in-out;
+    transition: 0.2s all ease-in-out;
 }
 
 div.projeto img:hover {
@@ -230,6 +230,12 @@ div#mostrar-mais {
     margin-bottom: 10px;
     border-radius: 0px 0px 10px 10px;
     cursor: pointer;
+    transition: 0.2s all ease-in-out;
+}
+
+div#mostrar-mais:hover {
+    background-color: #F23557;
+    color: black;
 }
 
 div#mais-projetos {

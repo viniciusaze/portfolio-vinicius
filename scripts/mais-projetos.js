@@ -4,9 +4,9 @@ function mais() {
 
     if (mais.style.display === 'block') {
         mais.style.display = 'none'
-        botao.innerHTML = 'Mostrar Mais'
+        botao.innerHTML = 'Mostrar Mais 🢃'
     } else {
         mais.style.display = 'block'
-        botao.innerHTML = 'Mostrar Menos'
+        botao.innerHTML = 'Mostrar Menos 🢁'
     }
 }
