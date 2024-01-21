@@ -198,8 +198,13 @@ div#container-proj {
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
-    gap: 10px;
-    padding: 10px;
+   
+    padding: 15px;
+
+    border: 1px solid #CF1D4B;
+    border-radius: 5px;
+    background: #242424;
+    box-shadow: 2px 2px 4px #ffffff33;
 }
 
 div.projeto img{
@@ -207,6 +212,7 @@ div.projeto img{
     width: 340px;
     border: 1px solid #D8C0F3;
     border-radius: 10px;
+    margin-bottom: 15px;
     transition: 0.5s all ease-in-out;
 }
 
@@ -214,6 +220,22 @@ div.projeto img:hover {
     border: 1px solid #F23557;
     transform: scale(103%);
 }
+
+div#mostrar-mais {
+    width: 100%;
+    text-align: center;
+    background-color: #CF1D4B;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 0px 0px 10px 10px;
+    cursor: pointer;
+}
+
+div#mais-projetos {
+    display: none;
+}
+
+
 
 
 
