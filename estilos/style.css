@@ -121,7 +121,7 @@ span.linkp{
 
 h2{
     color: #CF1D4B;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 }
 
 section#quem {
@@ -240,6 +240,34 @@ div#mostrar-mais:hover {
 
 div#mais-projetos {
     display: none;
+}
+
+section#contato {
+    padding: 20px 10px 20px 10px;
+}
+
+div#cont-ctt {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+img.ctt {
+    margin: 10px;
+    width: 60px;
+}
+
+div.ctt{
+    text-align: center;
+    font-weight: 2em;
+    color: #D8C0F3;
+    transition: 0.3s all ease-in-out;
+}
+
+div.ctt:hover{
+    transform: scale(150%);
 }
 
 
