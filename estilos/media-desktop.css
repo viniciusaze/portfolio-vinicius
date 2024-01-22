@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 992px){
+
+
+    main{
+        width: 975px;
+    }
+    
+    header h1{
+        font-size: 3em;
+    }
+
+    section#inicio{
+        padding-top: 100px;
+    }
+
+    div#bem-vindo h1{
+        font-size: 2.4em;
+    }
+
+    div.links {
+        margin: auto;
+        text-align: center;
+        width: 150px;
+        height: 45px;
+        font-size: 1em;
+        font-weight: bold;
+        text-decoration: none;
+        background-color: #D8C0F3;
+        color: black;
+        padding: 5px;
+        border-radius: 20px;
+        transition: all 0.2s ease-in-out;
+    }
+
+    div.links:hover {
+        width: 190px;
+        height: 70px;
+        background-color: #F23557;
+    }
+
+    h2{
+        font-size: 2em;
+    }
+
+    div#container-proj{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        align-content: baseline;
+        gap: 20px;
+    }
+
+    .mais{
+        display: none;
+    }
+
+    div.projeto img{
+        width: 400px;
+    }
+
+    div.ctt:hover{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    footer{
+        width: 99%;
+    }
+
+}

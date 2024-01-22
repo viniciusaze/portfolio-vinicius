@@ -6,14 +6,15 @@
     <title>Portfólio | Vinícius Azevedo</title>
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-desktop.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
-<body>
-    <main>
-        <header>
+<body onload="">
+    <header>
             <h1><strong>Portfólio</strong> - Vinícius Azevedo</h1>
-        </header>
+    </header>
 
+    <main>
         <section id="inicio">
             <div id="bem-vindo">
                 <h1>Olá, sou o <br> <strong>Vinícius Azevedo</strong><br>
@@ -65,43 +66,41 @@
 
                 <div id="container-proj">
                     <a href="https://viniciusaze.github.io/projeto-login/" target="_blank">
-                        <div class="projeto">
+                        <div class="projeto" id="login">
                             <img src="imagens/tela-login.jpg" alt="Projeto Login">
                         </div>
                     </a>
 
-                    <a href="https://viniciusaze.github.io/projeto-redes/" target="_blank">
-                        <div class="projeto">
-                            <img src="imagens/tela-redes.jpg" alt="Projeto Redes">
-                        </div>
-                    </a>
-
                     <a href="https://viniciusaze.github.io/projeto-android/" target="_blank">
-                        <div class="projeto">
+                        <div class="projeto" id="android">
                             <img src="imagens/tela-android.jpg" alt="Projeto Android">
                         </div>
                     </a>
 
-                    
+                    <a href="https://viniciusaze.github.io/projeto-redes/" target="_blank">
+                        <div class="projeto" id="redes">
+                            <img src="imagens/tela-redes.jpg" alt="Projeto Redes">
+                        </div>
+                    </a>
 
-                    <div id="mais-projetos">
-                        <a href="https://viniciusaze.github.io/projeto-cordel/" target="_blank" class="mais">
-                            <div class="projeto">
-                                <img src="imagens/tela-cordel.jpg" alt="Projeto Cordel">
-                            </div>
-                        </a>
 
-                        <div class="projeto" class="mais">
+                    <a href="https://viniciusaze.github.io/projeto-cordel/" target="_blank" >
+                        <div class="mais projeto">
+                            <img src="imagens/tela-cordel.jpg" alt="Projeto Cordel">
+                        </div>
+                    </a>
+
+                        <div class="mais projeto">
                             <img src="imagens/em-breve.jpg" alt="Em breve mais projetos!">
                         </div>
 
-                        <div class="projeto" class="mais">
+                        <div class="mais projeto">
                             <img src="imagens/em-breve.jpg" alt="Em breve mais projetos!">
                         </div>
-                    </div>
                     
-                    <div id="mostrar-mais" onclick="mais()">Mostrar Mais 🢃</div>
                 </div>
+
+            <div id="mostrar-mais" onclick="mais()">Mostrar Mais 🢃</div>
         </section>
 
         <section id="contato">
@@ -136,12 +135,12 @@
             </div>
         </section>
 
+       
+
+    </main>
         <footer>
             <p>Portfólio desenvolvido por <strong>Vinícius Azevedo</strong> para descrição profissional! <strong>Sem uso algum de códigos prontos.</strong></p>
         </footer>
-
-    </main>
-
     <script src="scripts/habilidades.js"></script>
     <script src="scripts/linksprincipal.js"></script>
     <script src="scripts/mais-projetos.js"></script>

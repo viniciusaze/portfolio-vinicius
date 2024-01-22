@@ -206,13 +206,12 @@ div#container-proj {
     border: 1px solid #CF1D4B;
     border-radius: 5px;
     background: #242424;
-    box-shadow: 2px 2px 4px #ffffff33;
     transition: 0.2s all ease-in-out;
 }
 
 div.projeto img{
     margin: auto;
-    width: 340px;
+    width: 320px;
     border: 1px solid #D8C0F3;
     border-radius: 10px;
     margin-bottom: 15px;  
@@ -225,7 +224,8 @@ div.projeto img:hover {
 }
 
 div#mostrar-mais {
-    width: 100%;
+    margin:auto;
+    width: 70%;
     text-align: center;
     background-color: #CF1D4B;
     padding: 5px;
@@ -240,7 +240,7 @@ div#mostrar-mais:hover {
     color: black;
 }
 
-div#mais-projetos {
+div.mais{
     display: none;
 }
 
