@@ -310,13 +310,12 @@ div#cont-ctt {
 }
 
 img.ctt {
-    margin: 10px;
+    margin: 5px;
     width: 40px;
 }
 
 div.ctt{
     text-align: center;
-    font-weight: 2em;
     color: #D8C0F3;
     transition: 0.3s all ease-in-out;
 }
