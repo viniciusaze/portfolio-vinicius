@@ -11,6 +11,17 @@
         font-size: 3em;
     }
 
+    menu > ul > li{
+        display: inline-block;
+        margin-right: 5px;
+        padding-left: 20px;
+    }
+
+    menu > ul > li > a{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
     section#inicio{
         padding-top: 100px;
     }
@@ -81,6 +92,7 @@
     }
 
     div.ctt p{
+        margin: 20px;
         font-size: 1em;
     }
 
