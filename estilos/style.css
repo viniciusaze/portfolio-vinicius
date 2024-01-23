@@ -48,6 +48,7 @@ menu{
 menu > ul{
     text-align: right;
     list-style-type: none;
+    margin-top: 15px;
 }
 
 menu > ul > li{
@@ -305,12 +306,12 @@ div#cont-ctt {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    gap: 3px;
 }
 
 img.ctt {
     margin: 10px;
-    width: 50px;
+    width: 40px;
 }
 
 div.ctt{
@@ -325,7 +326,7 @@ div.ctt p {
 }
 
 div.ctt:hover{
-    transform: scale(120%);
+    transform: scale(110%);
 }
 
 footer {
