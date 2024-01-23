@@ -40,13 +40,17 @@
         background-color: #F23557;
     }
 
-    article img{
+    article img#inteiro{
         display: block;
         position: relative;
         left: -30px;
         top: 25px;
         text-align: center;
         width: 500px;
+    }
+
+    article img#cabeca{
+        display: none;
     }
 
     h2{

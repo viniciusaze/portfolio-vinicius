@@ -29,6 +29,30 @@ header{
     border-bottom: 1px solid #F23557;
 }
 
+header h1{
+    display: inline-block;
+}
+
+span#hamburguer {
+    position: sticky;
+    left: 100%;
+    font-size: 3em;
+    color: #F4CB0B;
+    cursor: pointer;
+}
+
+menu > ul{
+    list-style-type: none;
+}
+
+menu > ul > li > a {
+    display: none;
+    text-align: right;
+    font-size: 2em;
+    padding: 10px;
+    margin: 5px;
+}
+
 main{
     margin: auto;
 }
@@ -41,6 +65,11 @@ a{
     text-decoration: none;
     font-weight: bold;
     color: #F4CB0B;
+    transition: 0.1s all ease-in-out;
+}
+
+a:hover{
+    color: #7e6807;
 }
 
 section#inicio{
@@ -146,8 +175,16 @@ section#quem > article{
     overflow: hidden;
 }
 
-article img{
+article img#inteiro{
     display: none;
+}
+
+article img#cabeca{
+    display: block;
+    position: relative;
+    top: 12px;
+    left: -20px;
+    width: 330px;
 }
 
 article > p {
@@ -257,7 +294,7 @@ div#cont-ctt {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 5px;
 }
 
 img.ctt {
