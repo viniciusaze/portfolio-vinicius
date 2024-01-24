@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+/* MEDIA IMPRESSÃO */
+
+@media print{
+    *{
+        font-family: 'Courier New', Courier, monospace;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body{
+        border: 1px solid black;
+        color: black;
+    }
+
+    header{
+        position: fixed;
+        text-align: center;
+        margin-top: 20px;
+        border: none;
+    }
+
+    header > span#hamburguer{
+        display: none;
+    }
+
+    div#bem-vindo{
+        margin:4px;
+        height: 10px;
+    }
+
+    div#bem-vindo > h1{
+        color: black;
+    }
+
+    section#inicio > div#bem-vindo > h1 >strong{
+        font-size: 1.6em;
+        color: black;
+    }
+
+    h1, h2, p, strong, a{
+        color: black;
+    }
+
+    section#inicio > div#cont-links > a > img{
+        display: none;
+    }
+
+    div.links{
+        display: none;
+        height: auto;
+    }
+
+    section#quem > article{
+        border: 1px solid black;
+    }
+
+    section#quem::after{
+        font-size: 0.8em;
+        text-align: center;
+        margin-top: 5px;
+        content: 'Material impresso do Portfólio do Vinícius Azevedo! Acesse: https://viniciusaze.github.io/projeto-portfolio/ Para conhecer o portfólio!'
+    }
+
+    article > img#cabeca, img#inteiro{
+        display: none;
+    }
+
+    section#hab{
+        display: none;
+    }
+
+    section#proj{
+        display: none;
+    }
+
+    section#contato{
+        display: none;
+    }
+
+    footer{
+        display: none;
+    }
+}
