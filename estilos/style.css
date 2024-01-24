@@ -145,26 +145,24 @@ div.links img{
 div.links {
     margin: auto;
     text-align: center;
-    width: 80px;
-    height: 45px;
+    width: 150px;
+    height: 80px;
     font-size: 1em;
-    font-weight: bold;
     text-decoration: none;
-    background-color: #D8C0F3;
-    color: black;
+    background-color: #181818;
+    border: 2px solid #CF1D4B;
+    color: white;
     padding: 5px;
     border-radius: 20px;
     transition: all 0.2s ease-in-out;
 }
 
 div.links:hover{
-    width: 100px;
-    height: 70px;
-    background-color: #F23557;
+    border: 2px solid #F4CB0B;
+    border-radius: 40px;
 }
 
 span.linkp{
-    display: none;
     position: relative;
     top: -10px;
     font-size: 1.3em;
