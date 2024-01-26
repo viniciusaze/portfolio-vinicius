@@ -6,7 +6,7 @@
 
 
     main{
-        width: 975px;
+        max-width: 1300px;
     }
     
     header h1{
@@ -27,6 +27,7 @@
     section#inicio{
         padding-top: 100px;
     }
+
 
     div#bem-vindo h1{
         font-size: 2.4em;
