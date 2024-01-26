@@ -116,6 +116,8 @@ div#bem-vindo {
     margin: auto;
 }
 
+
+
 div#bem-vindo > h1 {
     font-size: 1.6em;
 }
@@ -181,6 +183,8 @@ section#quem {
     align-items: stretch;
     background: #242424;
     margin: auto;
+    margin-top: 240px;
+    margin-bottom: 100px;
     padding: 20px 10px 20px 10px;
     text-indent: 10px;
 }
@@ -213,6 +217,7 @@ article > p {
 
 section#hab {
     padding: 20px 10px 20px 10px;
+    margin-bottom: 100px;
 }
 
 div#container-hab{
@@ -252,6 +257,7 @@ div#container-hab p{
 
 section#proj {
     padding: 20px 10px 20px 10px;
+    margin-bottom: 100px;
 }
 
 div#container-proj {
@@ -306,6 +312,7 @@ div.mais{
 
 section#contato {
     padding: 20px 10px 20px 10px;
+    margin-bottom: 100px;
 }
 
 div#cont-ctt {
@@ -338,7 +345,6 @@ div.ctt:hover{
 footer {
     text-align: center;
     font-size: 0.8em;
-    margin-top: 25px;
     padding: 5px;
     border-top: 1px solid #D8C0F3;
 }
