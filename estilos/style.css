@@ -181,7 +181,7 @@ section#quem {
     flex-direction: column;
     justify-content: space-between;
     align-items: stretch;
-    background: #242424;
+    background: #1f1f1f;
     margin: auto;
     margin-top: 240px;
     margin-bottom: 100px;
@@ -190,7 +190,7 @@ section#quem {
 }
 
 section#quem > article{
-    background-color: #242424;
+    background-color: #1f1f1f;
     border: 1px solid #D8C0F3;
     color: #c7c5c5;
     padding: 10px;
@@ -235,6 +235,7 @@ div.habilidades{
     text-align: center;
     margin: auto;
     width: 70px;
+    max-width: 400px;
     height: 70px;
     background-color: #242424;
     border-radius: 7px;
@@ -245,7 +246,8 @@ div.habilidades{
 }
 
 div.habilidades:hover{
-    transform: scale(105%);
+    box-shadow: -2px 2px 7px #cf1d4c65;
+    transform: translateX(4px) translateY(-2px);
 }
 
 section#hab img{
@@ -313,7 +315,7 @@ div.mais{
 
 section#contato {
     padding: 20px 10px 20px 10px;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
 
 div#cont-ctt {

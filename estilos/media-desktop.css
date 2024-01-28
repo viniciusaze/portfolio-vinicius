@@ -6,7 +6,7 @@
 
 
     main{
-        max-width: 1300px;
+        max-width: 100vw;
     }
     
     header h1{
@@ -53,13 +53,21 @@
         border-radius: 50px;
     }
 
+    div#texto {
+        display: inline-block;
+        max-width: 1200px;
+        text-align: justify;
+        float: left;
+    }
+
     article img#inteiro{
         display: block;
         position: relative;
         left: -30px;
         top: 25px;
         text-align: center;
-        width: 500px;
+        width: 800px;
+        float: right;
     }
 
     article img#cabeca{
