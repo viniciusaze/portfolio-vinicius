@@ -42,7 +42,7 @@ strong{
 }
 
 strong#name{
-    text-shadow: 0px 0px 15px #000000;
+    text-shadow: 0px 0px 25px #000000;
 }
 
 section#inicio{
@@ -144,7 +144,7 @@ div#container-proj {
     padding: 15px;
     border: 1px solid #3E989B;
     background: #e4e4e4;
-    transition: 0.2s all ease-in-out;
+    transition: 0.3s all ease-in-out;
 }
 
 div.projeto img{
@@ -156,7 +156,7 @@ div.projeto img{
     margin-top: 10px;  
     border-radius: 1rem;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
-    transition: transform 0.4s ease 0s;
+    transition: 0.4s ease 0s;
 }
 
 div.projeto img:hover {
